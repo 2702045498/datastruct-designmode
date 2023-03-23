@@ -8,7 +8,9 @@ public class ObserverDemo {
         WeatherData weatherData = new WeatherData(weatherConditions);
         // 更新数据方法
         weatherData.setData(18.00f,20.00f,35.0f);
-        System.out.println("==>执行完成");
+        System.out.println("==>执行更新数据");
+        weatherData.setData(12.00f,22.00f,30.0f);
+        System.out.println("==>更新完成");
     }
 
 }
